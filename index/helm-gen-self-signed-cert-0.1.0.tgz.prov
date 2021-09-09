@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.1.0
+description: A Helm chart that generates a self signed cert and saves it in a k8s Secret.
+home: https://github.com/cognifloyd/helm-gen-self-signed-cert
+icon: https://github.com/kubernetes/community/raw/master/icons/png/resources/labeled/secret-128.png
+keywords:
+- - secret
+- - x509
+- - cert
+maintainers:
+- - email: cognifloyd@gmail.com
+  name: Jacob Floyd
+  url: https://github.com/cognifloyd
+name: helm-gen-self-signed-cert
+type: application
+version: 0.1.0
+
+...
+files:
+  helm-gen-self-signed-cert-0.1.0.tgz: sha256:5a72f510ff2462d743e34cf5e82f9c5b008b96e7a6e02360b7c1acaca6a6b7ac
+-----BEGIN PGP SIGNATURE-----
+
+wl4EAREKABAFAmE5aUgJEBpy0EjJqnW+AAARRgEADS5VzZgcskpDi3mlFDLNPDay
+JdxAVw4UBHpeI+E6NcoBAFwo65ZoU5rWfbAnpx/mos9Oz1OKV3GCcFvwBwZA5IdB
+=RSQi
+-----END PGP SIGNATURE-----
