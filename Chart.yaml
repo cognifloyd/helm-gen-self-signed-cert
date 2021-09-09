@@ -5,6 +5,7 @@ version: "0.1.0"
 appVersion: "0.1.0"
 description: A Helm chart that generates a self signed cert and saves it in a k8s Secret.
 home: https://github.com/cognifloyd/helm-gen-self-signed-cert
+icon: https://github.com/kubernetes/community/raw/master/icons/png/resources/labeled/secret-128.png
 source:
   - https://github.com/cognifloyd/helm-gen-self-signed-cert
 keywords:
