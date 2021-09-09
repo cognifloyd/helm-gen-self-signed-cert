@@ -1,3 +1,24 @@
 # values for helm-gen-self-signed-cert.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+
+# chart name overrides
+nameOverride: ""
+fullnameOverride: ""
+
+# Force regenerating the certificate when true
+# (generally, you should use --set renew=true)
+renew: false
+
+hostname: ""
+altNames: []
+
+# days till the cert should expire.
+expires: 365
+
+# The secret is meant to be mounted to a directory.
+# You can change the name of the files in that "directory" by changing these names here.
+# If these names change, the certificate will be regenerated.
+filenames:
+  cert: tls.crt
+  key: tls.key

@@ -9,6 +9,8 @@ This is a companion chart to be used alongside other helm-charts. It uses helm/s
 generate a self-signed TLS/x.509 cert. It generates an ephemeral CA, and then generates a signed
 cert using that CA. By default, the cert is good for 365 days, but you can configure that.
 
+We regenerate when 'renew' was requested, the secret doesn't exist, or the filenames are not in previous secret.
+
 Only use this chart if the security trade-offs for self-signed certs are acceptable
 in your (firewalled) k8s cluster. If not, consider using Let's Encrypt, cert-manager,
 or some other service.
